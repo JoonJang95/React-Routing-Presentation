@@ -16,7 +16,14 @@ With that being said, I was hoping to implement basic front-end routing without 
 
   a) Express static middleware to serve up your webpack bundle and css stylesheet
 
+  `app.use(express.static(path.join(__dirname, '../public')));`
+
   b) Set up your servers API GET route to accept any url and send back your html file.
+
+  ````app.get('*', (req, res) => {
+       res.sendFile(path.join(__dirname, '../public/index.html'));
+      });```
+  ````
 
 2. Conditional Rendering
 
