@@ -54,12 +54,12 @@ With that being said, I was hoping to implement basic front-end routing without 
 - This API provides access to the browser's history and it's what the browser uses to move back & forth through your browsing history. In our case, we want to use this to manipulate the contents of the history stack.
 - Use this API to change your browser's URL and let React take care of the re-rendering work with a state update.
 
+          window.history.pushState({historyState}, 'Title', '/someURLPath');
+
+          this.setState({
+            url: '/someURLPath'
+          });
+
 After implementing these 3 steps, you're able to freely change the url and React will render out the respective components accordingly. Also, you don't have to worry about excessive get requests being sent each time you change the url and most of all, enjoy the beauty of a Single Page App!
-
-      window.history.pushState({historyState}, 'Title', '/someURLPath');
-
-      this.setState({
-        url: '/someURLPath'
-      });
 
 Thanks for reading!
