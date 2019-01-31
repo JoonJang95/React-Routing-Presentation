@@ -15,13 +15,14 @@ Hopefully this give you an insight as to how React-Router library works as well.
 2. Conditional Rendering
 
 - Set up your React components to render based on what the current URL is
-- \*\*Note => Without implementing the browser's history API, you're not utlizing one of React's key feature of auto re-rendering based on state change. Also this makes unnecessary amounts of get requests to the server to serve up your app each time you go to a new page (different URL).
+- \*\*Note: Without implementing the browser's history API, you're not utlizing one of React's key feature of auto re-rendering based on state change. Also this makes unnecessary amounts of get requests to the server to serve up your app each time you go to a new page (different URL).
 
 3. History API
 
 - This API provides access to the browser's history and it's what the browser uses to move back & forth through your browsing history. In our case, we want to use this to manipulate the contents of the history stack.
 - Use this API to change your browser's URL and let React take care of the re-rendering work with a state update.
 
-Overall => After implementing these 3 steps, you're able to freely change the url and React will render out the respective components accordingly. Also you don't have to worry about excessive get requests being sent to your server each time you change the URL and most of all, enjoy the beauty of a Single Page App!
+**Overall**
+After implementing these 3 steps, you're able to freely change the url and React will render out the respective components accordingly. Also you don't have to worry about excessive get requests being sent to your server each time you change the URL and most of all, enjoy the beauty of a Single Page App!
 
 Thanks for reading!
