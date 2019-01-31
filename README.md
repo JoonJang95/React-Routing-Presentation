@@ -10,7 +10,8 @@ With that being said, I was hoping to implement basic front-end routing without 
 
 1. Backend Setup
 
-- You want express to serve up your Application for any given URL
+- You want express to serve up your application for any given URL.
+
   This is achieved by using:
   a) Express static middleware to serve up your webpack bundle and css stylesheet
   b) Set up your servers API GET route to accept any url and send back your html file.
