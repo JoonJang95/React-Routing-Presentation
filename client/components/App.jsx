@@ -1,10 +1,10 @@
 import React from 'react';
 import LoginPage from './LoginPage.jsx';
-import MeowPage from './MeowPage.jsx';
-import PepPage from './PepPage.jsx';
-import Error404 from './Error404.jsx';
-import Navbar from './Navbar.jsx';
 import HomePage from './HomePage.jsx';
+import Navbar from './Navbar.jsx';
+import AboutPage from './AboutPage.jsx';
+import ContactPage from './ContactsPage.jsx';
+import Error404 from './Error404.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -13,8 +13,8 @@ class App extends React.Component {
     this.PAGES = {
       '/': HomePage,
       '/login': LoginPage,
-      '/meow': MeowPage,
-      '/pep': PepPage
+      '/about': AboutPage,
+      '/contact': ContactPage
     };
 
     this.state = {

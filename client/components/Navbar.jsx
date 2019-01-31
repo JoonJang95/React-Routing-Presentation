@@ -19,17 +19,17 @@ const Navbar = ({ changeURL }) => {
       </div>
       <div
         onClick={() => {
-          changeURL('meow');
+          changeURL('about');
         }}
       >
-        meowPage
+        AboutPage
       </div>
       <div
         onClick={() => {
-          changeURL('pep');
+          changeURL('contact');
         }}
       >
-        pepPage
+        ContactPage
       </div>
     </div>
   );
