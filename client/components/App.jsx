@@ -31,7 +31,6 @@ class App extends React.Component {
   // Part 3
 
   componentDidMount() {
-    console.log(document.location.pathname);
     this.setState({
       url: document.location.pathname
     });
