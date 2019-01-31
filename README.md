@@ -4,7 +4,7 @@ I made this repo to present the basic fundamentals of front-end routing with Sin
 
 React-Router is a common go-to choice to implement this, but keep in mind it is a huge library... Sometimes you just need a simple routing implementation and it might not be worth the lowered web-performance to use React-Router.
 
-With that being said, I was hoping to implement basic front-end routing without React-Router and this repo is what I came up with. React-Router is still an amazing tool that I highly recommend. In addition, I hope this repo gives an insight into how React-Router library works behind the scenes as well.
+With that being said, I was hoping to implement basic front-end routing without React-Router and this repo is what I came up with. React-Router is still an amazing tool that I highly recommend. In addition, I hope this repo gives an insight into how React-Router library works behind the scenes.
 
 \*\* The 3 important steps to note
 
@@ -25,7 +25,7 @@ With that being said, I was hoping to implement basic front-end routing without 
 - This API provides access to the browser's history and it's what the browser uses to move back & forth through your browsing history. In our case, we want to use this to manipulate the contents of the history stack.
 - Use this API to change your browser's URL and let React take care of the re-rendering work with a state update.
 
-**Overall**
+**_Overall_**
 After implementing these 3 steps, you're able to freely change the url and React will render out the respective components accordingly. Also you don't have to worry about excessive get requests being sent to your server each time you change the URL and most of all, enjoy the beauty of a Single Page App!
 
 Thanks for reading!

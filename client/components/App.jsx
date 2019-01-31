@@ -10,8 +10,6 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
-    // Part 2
-
     this.PAGES = {
       '/': HomePage,
       '/login': LoginPage,
@@ -19,16 +17,12 @@ class App extends React.Component {
       '/pep': PepPage
     };
 
-    // Part 3
-
     this.state = {
       url: '/'
     };
 
     this.changeURL = this.changeURL.bind(this);
   }
-
-  // Part 3
 
   componentDidMount() {
     this.setState({
@@ -44,9 +38,7 @@ class App extends React.Component {
   }
 
   render() {
-    //Part 2 => replace HomePage w/ new component
     const CurrentPage = this.PAGES[this.state.url] || Error404;
-    // Note - For Part 3 change document.location.pathname to => this.state.url
 
     return (
       <div>

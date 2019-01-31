@@ -36,22 +36,3 @@ const Navbar = ({ changeURL }) => {
 };
 
 export default Navbar;
-
-// part 2 (old code)
-
-{
-  /* <div className="navbar">
-      <a href="/login">
-        <div>Login</div>
-      </a>
-      <a href="/">
-        <div>HomePage</div>
-      </a>
-      <a href="/meow">
-        <div>meowPage</div>
-      </a>
-      <a href="/pep">
-        <div>pepPage</div>
-      </a>
-    </div> */
-}
