@@ -30,6 +30,6 @@ With that being said, I was hoping to implement basic front-end routing without 
 
 **_Overall_**
 
-After implementing these 3 steps, you're able to freely change the url and React will render out the respective components accordingly. Also you don't have to worry about excessive get requests being sent to your server each time you change the URL and most of all, enjoy the beauty of a Single Page App!
+After implementing these 3 steps, you're able to freely change the url and React will render out the respective components accordingly. Also, you don't have to worry about excessive get requests being sent each time you change the URL and most of all, enjoy the beauty of a Single Page App!
 
 Thanks for reading!
