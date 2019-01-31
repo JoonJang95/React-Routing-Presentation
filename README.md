@@ -32,6 +32,13 @@ With that being said, I was hoping to implement basic front-end routing without 
 
 - Set up your React components to render based on what the current URL is
 
+          import LoginPage from './LoginPage.jsx';
+          import HomePage from './HomePage.jsx';
+          import Navbar from './Navbar.jsx';
+          import AboutPage from './AboutPage.jsx';
+          import ContactPage from './ContactsPage.jsx';
+          import Error404 from './Error404.jsx';
+
           this.PAGES = {
             '/': HomePage,
             '/login': LoginPage,
@@ -47,7 +54,7 @@ With that being said, I was hoping to implement basic front-end routing without 
             </div>
           );
 
-* \*\*Note: Without implementing the browser's history API, you're not utilizing one of React's key feature of auto re-rendering based on state change. Also, this makes unnecessary amounts of get requests to the server to retrieve your app again each time you go to a new page (different URL).
+* \*\*Note: Without integrating the browser's history API, you're not utilizing one of React's key feature of auto re-rendering based on state change. Also, this makes unnecessary amounts of get requests to the server to retrieve your app again each time you go to a new page (different URL).
 
 3. History API
 
