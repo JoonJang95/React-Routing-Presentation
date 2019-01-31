@@ -43,7 +43,7 @@ With that being said, I was hoping to implement basic front-end routing without 
             </div>
           );
 
-* \*\*Note: Without implementing the browser's history API, you're not utlizing one of React's key feature of auto re-rendering based on state change. Also this makes unnecessary amounts of get requests to the server to serve up your app each time you go to a new page (different URL).
+* \*\*Note: Without implementing the browser's history API, you're not utilizing one of React's key feature of auto re-rendering based on state change. Also, this makes unnecessary amounts of get requests to the server to retrieve your app again each time you go to a new page (different URL).
 
 3. History API
 
