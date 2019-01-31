@@ -34,7 +34,6 @@ With that being said, I was hoping to implement basic front-end routing without 
 
           import LoginPage from './LoginPage.jsx';
           import HomePage from './HomePage.jsx';
-          import Navbar from './Navbar.jsx';
           import AboutPage from './AboutPage.jsx';
           import ContactPage from './ContactsPage.jsx';
           import Error404 from './Error404.jsx';
