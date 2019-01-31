@@ -1,6 +1,8 @@
 # React-Routing-Presentation
 
-## **React Routing Made Super Simple**
+`----------------------------------`
+**React Routing Made Super Simple**
+`----------------------------------`
 
 I made this repo to present the basic fundamentals of front-end routing with Single page applications (React specific).
 
