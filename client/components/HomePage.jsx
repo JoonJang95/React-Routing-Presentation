@@ -12,6 +12,8 @@ const HomePage = () => {
       <div>1. Backend Express Setup</div>
       <div>2. Conditional Rendering</div>
       <div>3. Browser's History API</div>
+      <br />
+      <div>Try typing in the URLS too and also incorrect URLS as well.</div>
     </div>
   );
 };

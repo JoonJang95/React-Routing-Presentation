@@ -42,7 +42,7 @@ class App extends React.Component {
 
     return (
       <div>
-        <Navbar changeURL={this.changeURL} />
+        {CurrentPage === Error404 ? '' : <Navbar changeURL={this.changeURL} />}
         <CurrentPage changeURL={this.changeURL} />
       </div>
     );
