@@ -4,9 +4,9 @@
 **React Routing Made Super Simple**
 `----------------------------------`
 
-I made this repo to present the basic fundamentals of front-end routing with Single page applications (React specific).
+Most of the articles I read online regarding this topic made front-end routing implementations way more complicated than it should be ...so I decided to make this repo to present the basic fundamentals of front-end routing with React without all the unnecessary complexities--just the essentials.
 
-React-Router is a common go-to choice to implement this, but keep in mind it is a huge library... Sometimes you just need a simple routing implementation and it might not be worth the lowered web performance to use React-Router.
+React-Router is a common go-to choice to implement this, but keep in mind it is a huge library. Sometimes, you just need a simple routing implementation and it might not be worth the lowered web performance to use React-Router.
 
 With that being said, I was hoping to implement basic front-end routing without React-Router and this repo is what I came up with. React-Router is still an amazing tool that I highly recommend. In addition, I hope this repo gives an insight into how React-Router library works behind the scenes.
 
