@@ -66,6 +66,6 @@ With that being said, I was hoping to implement basic front-end routing without 
             url: '/someURLPath'
           });
 
-After implementing these 3 steps, you're able to freely change the url and React will render out the respective components accordingly. Also, you don't have to worry about excessive get requests being sent each time you change the url! Allowing our Node server to only have to serve up our application once should reduce the load on our Node server for increased performance and most of all, enjoy the beauty of a Single Page App!
+After implementing these 3 steps, you're able to freely change the URL and React will render out the respective components accordingly. Also, you don't have to worry about excessive get requests being sent each time you change the URL! This allows our Node to only have to serve up our application once and that should reduce the load on the server for increased performance. All that's left is to enjoy the beauty of a Single Page App!
 
 Thanks for reading!
